@@ -7,9 +7,10 @@
 }
 
 #menu-h ul {
+    max-width: 950px;
     list-style: none;
     padding: 0;
-    background-color: #2020f8;
+    background-color: #000000;
 }
 
 #menu-h ul li {
@@ -26,6 +27,6 @@
 }
 
 #menu-h ul li a:hover {
-    background-color: rgb(3, 60, 111);
+    background-color: rgb(4, 102, 132);
 
 }
