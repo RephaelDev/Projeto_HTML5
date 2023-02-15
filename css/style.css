@@ -6,8 +6,14 @@
     box-sizing: border-box;
 }
 
+#menu-h {
+    background-color: #000000;
+
+
+}
+
 #menu-h ul {
-    max-width: 950px;
+    max-width: 800px;
     list-style: none;
     padding: 0;
     background-color: #000000;
@@ -29,4 +35,9 @@
 #menu-h ul li a:hover {
     background-color: rgb(4, 102, 132);
 
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(4, 102, 132);
 }
