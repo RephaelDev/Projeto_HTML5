@@ -1,50 +1,31 @@
-/* Estilos para o cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-h1 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
+* {
+    margin: 0 auto;
     padding: 0;
-    display: flex;
+    box-sizing: border-box;
 }
 
-nav li {
-    margin-right: 20px;
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: #2020f8;
 }
 
-nav li:last-child {
-    margin-right: 200;
+#menu-h ul li {
+
+    display: inline;
 }
 
-nav a {
-    color: #fff;
+#menu-h ul li a {
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
     text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: backgroud .4s;
 }
 
-nav a:hover {
-    background-color: #fff;
-    color: #333;
+#menu-h ul li a:hover {
+    background-color: rgb(3, 60, 111);
+
 }
