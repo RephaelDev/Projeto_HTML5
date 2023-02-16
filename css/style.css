@@ -41,21 +41,35 @@
     float: right;
     background-color: rgb(4, 102, 132);
 }
+
 /* Estilos para a seção de apresentação pessoal */
 section {
     margin: 20px;
     padding: 20px;
-  }
-  h1 {
+}
+
+h1 {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center
+}
 
-  }
-  p {
+p {
     font-size: 1.2em;
     line-height: 1.5;
     text-align: center;
 
-  }
-  
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #490747;
+}
+
+.alinharimg {
+    width: 575px;
+    position: relative; 
+    top: -118px;
+}
