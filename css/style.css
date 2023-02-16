@@ -5,7 +5,8 @@
 * {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+        box-sizing: border-box;
+
 }
 
 #menu-h {
@@ -120,12 +121,12 @@ footer {
 .social-icons a {
     display: inline-block;
     margin-right: 20px;
-    color: #ffffff;
+    color: #490747;
     font-size: 24px;
 }
 
 .social-icons a:hover {
-    color: #490747;
+    color: #fffdff;
 }
 
 .fab {
