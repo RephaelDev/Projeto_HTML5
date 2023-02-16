@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Open+Sans:wght@300&family=Oxygen&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -56,22 +57,40 @@ h1 {
 }
 
 p {
-    font-size: 12px
-    font-family: Oxygen;
+    font-size: 12px font-family: Oxygen;
     line-height: 1.5;
     text-align: center;
 
 }
+
+
 
 img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid #490747;
+    transform: translate(opx);
+    animation: float 5s ease-in-out infinite;
 }
+
+@keyframes float {
+    0%{
+    transform: translatey(0px);
+}
+
+50% {
+    transform: translatey(-30px);
+}
+
+100% {
+    transform: translatey(0px);
+}
+}
+
 
 .alinharimg {
     width: 575px;
-    position: relative; 
+    position: relative;
     top: -118px;
 }
