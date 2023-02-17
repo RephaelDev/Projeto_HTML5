@@ -126,5 +126,10 @@ footer img {
     width: 28px;
     height: 28px;
     position: relative;
-    top: 52px;
+    top: 20px;
+}
+footer p{
+    position: relative;
+    top: 15px;
+    font-size: 10px;
 }
