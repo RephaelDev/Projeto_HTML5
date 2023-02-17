@@ -5,7 +5,7 @@
 * {
     margin: 0 auto;
     padding: 0;
-        box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 
@@ -44,6 +44,27 @@
     float: right;
     background-color: rgb(4, 102, 132);
 }
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+.icons img {
+    height: 30px;
+    width: 30px;
+}
+
+
 
 /* Estilos para a seção de apresentação pessoal */
 section {
@@ -105,12 +126,14 @@ footer {
     position: absolute;
 
 }
+
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px; /* altura do rodapé */
-  }
+    height: 100px;
+    /* altura do rodapé */
+}
 
 .social-icons {
     display: flex;
