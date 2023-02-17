@@ -93,7 +93,7 @@ img {
     border-radius: 50%;
     border: 5px solid #490747;
     transform: translate(opx);
-    animation: float 5s ease-in-out infinite;
+    /*animation: float 5s ease-in-out infinite;*/
 }
 
 @keyframes float {
@@ -135,27 +135,13 @@ footer {
     /* altura do rodapé */
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+footer id {
+    align-items: center;
 }
 
-.social-icons a {
-    display: inline-block;
-    margin-right: 20px;
-    color: #490747;
-    font-size: 24px;
-}
-
-.social-icons a:hover {
-    color: #fffdff;
-}
-
-.fab {
-    font-size: inherit;
-}
-
-p {
-    margin: 0;
+footer img {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 50px;
 }
