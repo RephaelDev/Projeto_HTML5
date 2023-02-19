@@ -49,6 +49,7 @@
     color: #333;
     text-decoration: none;
 }
+
 /* Estilos para a seção de apresentação pessoal */
 section {
     margin: 20px;
@@ -76,7 +77,7 @@ header section div img {
     border-radius: 50%;
     border: 5px solid #490747;
     transform: translate(opx);
-    /*animation: float 5s ease-in-out infinite;*/
+    animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -128,7 +129,8 @@ footer img {
     position: relative;
     top: 20px;
 }
-footer p{
+
+footer p {
     position: relative;
     top: 15px;
     font-size: 10px;
